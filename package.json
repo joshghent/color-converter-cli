@@ -1,0 +1,37 @@
+{
+  "name": "color-formatter-cli",
+  "description": "Convert between color formats with ease in your terminal!",
+  "version": "0.1.0",
+  "homepage": "https://github.com/joshghent/color-formtter-cli",
+  "author": {
+    "name": "Josh Ghent",
+    "url": "https://joshghent.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joshghent/color-formatter-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joshghent/color-formatter-cli/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/joshghent/color-formatter-cli/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "cli",
+    "command line"
+  ],
+  "preferGlobal": true,
+  "bin": {
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.8"
+  },
+  "scripts": {
+    "test": "mocha -R test"
+  }
+}
