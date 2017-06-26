@@ -25,13 +25,9 @@
     "command line"
   ],
   "preferGlobal": true,
-  "bin": {
-  },
+  "bin": {},
   "main": "index.js",
   "engines": {
     "node": ">=0.8"
-  },
-  "scripts": {
-    "test": "mocha -R test"
   }
 }
