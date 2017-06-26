@@ -1,7 +1,7 @@
 {
   "name": "color-formatter-cli",
   "description": "Convert between color formats with ease in your terminal!",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/joshghent/color-formtter-cli",
   "author": {
     "name": "Josh Ghent",
