@@ -1,5 +1,7 @@
 # color-converter-cli
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/joshghent/color-formatter-cli.svg)](https://greenkeeper.io/)
+
 Convert colors to other forms in a handy CLI
 
 ### Install
