@@ -1,6 +1,6 @@
-import Color from './Color';
+const Color = require('./Color');
 
-export default class CMYKColor extends Color {
+module.exports = class CMYKColor extends Color {
     constructor (color) {
         super(color);
     }
