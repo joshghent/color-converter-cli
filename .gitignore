@@ -1,2 +1,7 @@
 node_modules
 .vscode
+.idea/vcs.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/ColorFormatterCLI.iml
+.idea/workspace.xml
