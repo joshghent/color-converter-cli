@@ -17,7 +17,7 @@ color-converter-cli$ color-convert --help
     $ color-convert [options] [color]
 
   Options
-    --help
+    --help        Ouput usage information
     -h, --hex     Converts the color passed to Hexidecimal
     -r, --rgb     Converts the color passed to RGB
     -c, --cmyk    Converts the color passed to CMYK
