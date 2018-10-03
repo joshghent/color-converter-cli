@@ -26,7 +26,7 @@
   ],
   "preferGlobal": true,
   "bin": {
-    "color-formatter-cli": "./index.js"
+    "color-converter-cli": "./index.js"
   },
   "main": "index.js",
   "engines": {
