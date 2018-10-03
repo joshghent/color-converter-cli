@@ -9,17 +9,18 @@ $ npm i -g color-converter-cli
 
 ### Usage
 ```bash
-$ color-convert --help
+$ color-converter-cli
+
+color-converter-cli$ color-convert --help
 
   Usage
-    $ color-convert
+    $ color-convert [options] color
 
   Options
-    -c, --color   Specify the color to pass to the CLI [Mandatory]
     -h, --hex     Converts the color passed to Hexidecimal
     -r, --rgb     Converts the color passed to RGB
     -c, --cmyk    Converts the color passed to CMYK
 
-$ color-convert -c "255,255,255" -h
+$ color-convert -h "255,255,255"
 > #FFFFFF
 ```
