@@ -11,5 +11,5 @@ module.exports = function(color) {
         return new RGBColor(color);
     }
 
-    return;
-}
+    return undefined;
+};

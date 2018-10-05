@@ -1,5 +1,5 @@
 const vorpal = require('vorpal')();
-const Color = require('./Colors/ColorFactory');
+const color = require('./Colors/ColorFactory');
 
 vorpal
     .delimiter('color-converter-cli$')
@@ -11,7 +11,7 @@ vorpal
     .option('-r, --rgb', 'Converts the color passed to RGB')
     .option('-c, --cmyk', 'Converts the color passed to CMYK')
     .action(function (args, cb) {
-        this.log(Color(args.color));
+        this.log(color(args.color));
         this.log(args);
         cb();
     });

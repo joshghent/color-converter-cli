@@ -8,4 +8,4 @@ module.exports = class HexColor extends Color {
     convertTo(type) {
 
     }
-}
+};
